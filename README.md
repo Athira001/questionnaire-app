@@ -21,7 +21,7 @@
 `Molecule + Molecule = Row`.
 
 ### Prerequisites
-To set up the development environment You need to have `Node >= 14.0.0` and `npm >= 5.6` on your machine.
+To set up the development environment you need to have `Node >= 14.0.0` and `npm >= 5.6` on your machine.
 
 ### Available Scripts
 
