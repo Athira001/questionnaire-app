@@ -12,6 +12,15 @@ const getChildrenByClass = (tree, classString) => {
 };
 
 describe("Questionnaire App", () => {
+  beforeAll(() => {
+    // moking intersection observer
+    const observe = jest.fn();
+    const unobserve = jest.fn();
+    window.IntersectionObserver = jest.fn(() => ({
+      observe,
+      unobserve,
+    }));
+  });
   it("renders the Questionnaire App properly", () => {
     const renderer = new ShallowRenderer();
     const tree = renderer.render(<Questionnaire />);
