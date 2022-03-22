@@ -1,11 +1,10 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useState } from "react";
 
 import { questionnaireData } from "../../../data/questionnaire";
 import { Questions } from "../../molecules/questions";
-import {Button} from "../../atoms/button";
+import { Button } from "../../atoms/button";
 import logo from "../../../assets/logo.svg";
 import bgImage from "../../../assets/bg.png";
-
 
 import "./style.css";
 
@@ -16,11 +15,10 @@ export const Questionnaire = () => {
     questions = [],
   } = questionnaireData.questionnaire;
 
-  const [formData, setFormData] = React.useState({});
+  const [formData, setFormData] = useState({});
 
-  const handleChange = (e, name, jumps=[]) => {
+  const handleChange = (e, name, jumps = []) => {
     setFormData({ ...formData, [name]: e.target.value });
-
     if (jumps.length > 0) {
       jumps.forEach((jump) => {
         if (jump.conditions && jump.conditions[0].value === e.target.value) {
@@ -42,7 +40,8 @@ export const Questionnaire = () => {
   };
 
   useEffect(() => {
-    const targetElement = global && global.document.querySelectorAll(".animate");
+    const targetElement =
+      global && global.document.querySelectorAll(".animate");
     const options = {
       threshold: 1.0,
     };
@@ -53,8 +52,8 @@ export const Questionnaire = () => {
   }, []);
 
   const handleSubmit = (e) => {
-    console.log("formdata----------", formData);
     e.preventDefault();
+    console.log("formdata----------", formData);
   };
 
   return (
@@ -64,11 +63,7 @@ export const Questionnaire = () => {
           <img src={logo} className="logo" alt="app-image" />
         </a>
         <figure className="img-wrapper">
-          <img
-            src={bgImage}
-            alt="backgroung-image"
-            className="app-image"
-          />
+          <img src={bgImage} alt="backgroung-image" className="app-image" />
         </figure>
       </div>
       <div className="right-content">
@@ -87,7 +82,7 @@ export const Questionnaire = () => {
             );
           })}
           <div className="submit animate">
-            <Button type="submit" text="Submit"/>
+            <Button type="submit" text="Submit" />
           </div>
         </form>
       </div>

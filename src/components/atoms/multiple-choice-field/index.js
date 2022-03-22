@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./style.css";
+
 export const MultipleChoiceField = ({ choice, onChange, checked,name, jumps }) => {
 
   return (
@@ -16,3 +18,4 @@ export const MultipleChoiceField = ({ choice, onChange, checked,name, jumps }) =
     </label>
   );
 };  
+
