@@ -8,6 +8,14 @@
 - Using animation 
 - Support tests
 
+Desktop view
+
+<img width="1062" alt="image" src="https://user-images.githubusercontent.com/37729206/159499663-c49f3e42-afd5-4441-8665-08610e78e4f2.png">
+
+Mobile view
+
+<img width="313" alt="image" src="https://user-images.githubusercontent.com/37729206/159499938-f8348f10-2657-4be4-9808-eb84f8bc5325.png">
+
  ### Following Design System
  we use the idea of [Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/) as a part of building a web page.
 
@@ -21,7 +29,7 @@
 `Molecule + Molecule = Row`.
 
 ### Prerequisites
-To set up the development environment You need to have `Node >= 14.0.0` and `npm >= 5.6` on your machine.
+To set up the development environment you need to have `Node >= 14.0.0` and `npm >= 5.6` on your machine.
 
 ### Available Scripts
 
