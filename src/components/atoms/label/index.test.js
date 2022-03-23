@@ -22,7 +22,7 @@ describe("Label", () => {
 
 describe("Label  UI", () => {
 
-  it("should show the label text", () => {
+  it("should show the correct label text", () => {
     const tree = renderer.create(<Label text="Do you have any additional information or comments for us?" />);
     const text = getChildrenByClass(tree, "label-name");
 
