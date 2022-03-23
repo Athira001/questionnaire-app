@@ -42,6 +42,16 @@ export const Questions = ({ question, onChange, identifier }) => {
             onChange={onChange}
           />
         );
+      case "email":
+        return (
+          <InputField
+            type="email"
+            name={question["identifier"]}
+            onChange={onChange}
+            required={question.required}
+            placeholder="Email Id"
+          />
+        );
       default:
         return (
           <InputField
@@ -52,11 +62,11 @@ export const Questions = ({ question, onChange, identifier }) => {
         );
     }
   };
-  if(question)
-  return (
-    <fieldset id={question["identifier"]} className="animate question">
-      <Label text={question.headline} />
-      {getInputField(question)}
-    </fieldset>
-  );
+  if (question)
+    return (
+      <fieldset id={question["identifier"]} className="animate question">
+        <Label text={question.headline} />
+        {getInputField(question)}
+      </fieldset>
+    );
 };

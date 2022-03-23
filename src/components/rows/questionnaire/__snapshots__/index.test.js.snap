@@ -957,6 +957,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           name="date_22039590"
           onChange={[Function]}
           placeholder="Placeholder text..."
+          required={false}
           type="text"
         />
       </fieldset>
@@ -975,6 +976,24 @@ exports[`Questionnaire  UI should render headline 1`] = `
           onChange={[Function]}
           placeholder="Placeholder text"
           rows="5"
+        />
+      </fieldset>
+      <fieldset
+        className="animate question"
+        id="email_123"
+      >
+        <label
+          className="label-name"
+        >
+          Please provide your Email Id
+        </label>
+        <input
+          className="input-field"
+          name="email_123"
+          onChange={[Function]}
+          placeholder="Email Id"
+          required={true}
+          type="email"
         />
       </fieldset>
       <div
@@ -1617,6 +1636,20 @@ exports[`Questionnaire App renders the Questionnaire App properly 1`] = `
             "multiline": "true",
             "question_type": "text-area",
             "required": false,
+          }
+        }
+      />
+      <Questions
+        onChange={[Function]}
+        question={
+          Object {
+            "description": null,
+            "headline": "Please provide your Email Id",
+            "identifier": "email_123",
+            "jumps": Array [],
+            "multiline": "false",
+            "question_type": "email",
+            "required": true,
           }
         }
       />

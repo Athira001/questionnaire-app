@@ -1,5 +1,5 @@
 .left-content, .right-content {
-  padding: 24px;
+  padding: 32px 24px;
 }
 
 .app-image {
@@ -52,10 +52,11 @@
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
+  
 }
 
 
-@keyframes fadeInRight {
+@keyframes fadeInRight{
   0% {
     opacity: 0;
   }
@@ -64,8 +65,38 @@
   }
 }
 
+
 .submit {
   text-align:center;
+}
+
+.message-wrapper {
+  text-align: center;
+  opacity: 1;
+  animation-delay: 20ms;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.thank-you {
+  text-align: center;
+  font-size: 24px;
+  background: linear-gradient(-60deg, #f7345e, #FFB03A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  padding-bottom: 8px;
+  margin-bottom: 0;
+
+}
+
+.message {
+  font-size: 16px;
 }
 
 

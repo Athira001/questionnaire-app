@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Label  UI should show the label text 1`] = `
+exports[`Label  UI should show the correct label text 1`] = `
 <label
   className="label-name"
 >

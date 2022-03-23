@@ -488,6 +488,15 @@ export const questionnaireData = {
         "required": false,
         "multiline": "true",
         "jumps": []
+      },
+      {
+        "question_type": "email",
+        "identifier": "email_123",
+        "headline": "Please provide your Email Id",
+        "description": null,
+        "required": true,
+        "multiline": "false",
+        "jumps": []
       }
     ],
     "description": "In order to create your personal private liability insurance offer, we need some information from you.",

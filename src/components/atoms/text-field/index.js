@@ -2,7 +2,7 @@ import React from "react";
 
 import "./style.css";
 
-export const InputField = ({type="text", name, onChange,placeholder="Placeholder text..." })=> {
+export const InputField = ({type="text", name, onChange,placeholder="Placeholder text...", required=false })=> {
   return(
     <input
     className="input-field"
@@ -10,6 +10,7 @@ export const InputField = ({type="text", name, onChange,placeholder="Placeholder
     name={name}
     placeholder={placeholder}
     onChange={(e) => onChange(e, name)}
+    required={required}
   />
   );
 }

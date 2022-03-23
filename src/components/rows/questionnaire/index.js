@@ -16,6 +16,7 @@ export const Questionnaire = () => {
   } = questionnaireData.questionnaire;
 
   const [formData, setFormData] = useState({});
+  const [successMessage, showSucssMessage] = useState(false);
 
   const handleChange = (e, name, jumps = []) => {
     setFormData({ ...formData, [name]: e.target.value });
@@ -53,7 +54,9 @@ export const Questionnaire = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("formdata----------", formData);
+
+    console.log("formdata----------", formData); // getting the form data
+    showSucssMessage(true);
   };
 
   return (
@@ -82,10 +85,18 @@ export const Questionnaire = () => {
               />
             );
           })}
-          <div className="submit animate">
-            <Button type="submit" text="Submit" />
-          </div>
+          {!successMessage && (
+            <div className="submit animate">
+              <Button type="submit" text="Submit" />
+            </div>
+          )}
         </form>
+        {successMessage && (
+          <div className="message-wrapper">
+            <h4 className="thank-you">Thank You!</h4>
+            <p className="message">Your submission has been sent.</p>
+          </div>
+        )}
       </div>
     </div>
   );
