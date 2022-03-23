@@ -63,6 +63,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_12110962"
             onChange={[Function]}
             type="radio"
             value="My family with children"
@@ -77,6 +78,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_12110962"
             onChange={[Function]}
             type="radio"
             value="My family without children"
@@ -91,6 +93,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_12110962"
             onChange={[Function]}
             type="radio"
             value="Me without a child"
@@ -105,6 +108,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_12110962"
             onChange={[Function]}
             type="radio"
             value="Me with child"
@@ -119,6 +123,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_12110962"
             onChange={[Function]}
             type="radio"
             value="Me and my partner"
@@ -143,6 +148,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_12111610"
             onChange={[Function]}
             type="radio"
             value="Yes"
@@ -157,6 +163,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_12111610"
             onChange={[Function]}
             type="radio"
             value="No"
@@ -181,6 +188,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_12111777"
             onChange={[Function]}
             type="radio"
             value="Yes"
@@ -195,6 +203,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_12111777"
             onChange={[Function]}
             type="radio"
             value="No"
@@ -219,6 +228,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_12110966"
             onChange={[Function]}
             type="radio"
             value="Important"
@@ -233,6 +243,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_12110966"
             onChange={[Function]}
             type="radio"
             value="Not important"
@@ -257,6 +268,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_12110967"
             onChange={[Function]}
             type="radio"
             value="Yes"
@@ -271,6 +283,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_12110967"
             onChange={[Function]}
             type="radio"
             value="No"
@@ -295,6 +308,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_12110968"
             onChange={[Function]}
             type="radio"
             value="Yes, domestically"
@@ -309,6 +323,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_12110968"
             onChange={[Function]}
             type="radio"
             value="Yes, abroad"
@@ -323,6 +338,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_12110968"
             onChange={[Function]}
             type="radio"
             value="Yes, domestically and internationally"
@@ -337,6 +353,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_12110968"
             onChange={[Function]}
             type="radio"
             value="No"
@@ -361,6 +378,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_13907264"
             onChange={[Function]}
             type="radio"
             value="Yes, domestically"
@@ -375,6 +393,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_13907264"
             onChange={[Function]}
             type="radio"
             value="Yes, abroad"
@@ -389,6 +408,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_13907264"
             onChange={[Function]}
             type="radio"
             value="Yes, domestically and internationally"
@@ -403,6 +423,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_13907264"
             onChange={[Function]}
             type="radio"
             value="No"
@@ -427,6 +448,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_12111854"
             onChange={[Function]}
             type="radio"
             value="Yes"
@@ -441,6 +463,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_12111854"
             onChange={[Function]}
             type="radio"
             value="No"
@@ -465,6 +488,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_12110972"
             onChange={[Function]}
             type="radio"
             value="Important"
@@ -479,6 +503,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_12110972"
             onChange={[Function]}
             type="radio"
             value="Not important"
@@ -503,6 +528,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_13913438"
             onChange={[Function]}
             type="radio"
             value="Yes"
@@ -517,6 +543,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_13913438"
             onChange={[Function]}
             type="radio"
             value="No"
@@ -541,6 +568,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_12110969"
             onChange={[Function]}
             type="radio"
             value="Yes, up to a month"
@@ -555,6 +583,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_12110969"
             onChange={[Function]}
             type="radio"
             value="Yes, several months"
@@ -569,6 +598,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_12110969"
             onChange={[Function]}
             type="radio"
             value="No"
@@ -593,6 +623,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_12110970"
             onChange={[Function]}
             type="radio"
             value="Up to 4 m²"
@@ -607,6 +638,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_12110970"
             onChange={[Function]}
             type="radio"
             value="Up to 10 m²"
@@ -621,6 +653,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_12110970"
             onChange={[Function]}
             type="radio"
             value="Up to 15 m²"
@@ -635,6 +668,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_12110970"
             onChange={[Function]}
             type="radio"
             value="Up to 25 m²"
@@ -649,6 +683,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_12110970"
             onChange={[Function]}
             type="radio"
             value="No"
@@ -673,6 +708,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_12110971"
             onChange={[Function]}
             type="radio"
             value="Up to 5 hp"
@@ -687,6 +723,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_12110971"
             onChange={[Function]}
             type="radio"
             value="Up to 10 hp"
@@ -701,6 +738,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_12110971"
             onChange={[Function]}
             type="radio"
             value="Up to 15 hp"
@@ -715,6 +753,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_12110971"
             onChange={[Function]}
             type="radio"
             value="Unlimited HP"
@@ -729,6 +768,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_12110971"
             onChange={[Function]}
             type="radio"
             value="No"
@@ -753,6 +793,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_12110965"
             onChange={[Function]}
             type="radio"
             value="No"
@@ -767,6 +808,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_12110965"
             onChange={[Function]}
             type="radio"
             value="Yes, up to 150 euros"
@@ -791,6 +833,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_12111717"
             onChange={[Function]}
             type="radio"
             value="Yes"
@@ -805,6 +848,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_12111717"
             onChange={[Function]}
             type="radio"
             value="No"
@@ -829,6 +873,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_12111755"
             onChange={[Function]}
             type="radio"
             value="None"
@@ -843,6 +888,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_12111755"
             onChange={[Function]}
             type="radio"
             value="1"
@@ -857,6 +903,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_12111755"
             onChange={[Function]}
             type="radio"
             value="2"
@@ -871,6 +918,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_12111755"
             onChange={[Function]}
             type="radio"
             value="3"
@@ -885,6 +933,7 @@ exports[`Questionnaire  UI should render headline 1`] = `
           <input
             checked={false}
             className="radio-btn"
+            name="list_12111755"
             onChange={[Function]}
             type="radio"
             value="More than 3"

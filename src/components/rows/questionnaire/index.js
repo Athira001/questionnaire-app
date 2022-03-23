@@ -72,12 +72,13 @@ export const Questionnaire = () => {
           {description && <p className="description"> {description}</p>}
         </div>
         <form onSubmit={handleSubmit} className="question-wrapper">
-          {questions.map((question) => {
+          {questions.map((question, index) => {
             return (
               <Questions
                 question={question}
                 onChange={handleChange}
                 identifier={formData[question.identifier]}
+                key={`question-${index}`}
               />
             );
           })}

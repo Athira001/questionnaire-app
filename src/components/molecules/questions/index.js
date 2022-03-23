@@ -13,7 +13,7 @@ export const Questions = ({ question, onChange, identifier }) => {
       case "multiple choice":
         return (
           question.choices &&
-          question.choices.map((choice) => {
+          question.choices.map((choice, index) => {
             return (
               <MultipleChoiceField
                 choice={choice}
@@ -21,6 +21,7 @@ export const Questions = ({ question, onChange, identifier }) => {
                 checked={identifier == choice.value}
                 name={question["identifier"]}
                 jumps={question.jumps}
+                key={`input-${index}`}
               />
             );
           })

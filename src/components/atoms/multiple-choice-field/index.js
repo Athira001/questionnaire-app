@@ -9,7 +9,7 @@ export const MultipleChoiceField = ({ choice, onChange, checked,name, jumps }) =
       <input
         className="radio-btn"
         type="radio"
-        name={choice.name}
+        name={name}
         checked={checked}
         value={choice.value}
         onChange={(e) => onChange(e, name, jumps)}
