@@ -18,7 +18,20 @@ Mobile view
 
 ![material-ui](https://user-images.githubusercontent.com/37729206/232368904-74d3468c-54ff-4cd0-bac9-4bce4e20794d.gif)
 
+### Following Design System
+ we use the idea of [Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/) as a part of building a web page.
 
+ Basic Terminology
+* Atom - A single and the most basic entity in our system. This can be anything, be it a single image or a simple piece of text indicating a headline/subheadline.
+
+* Molecules - Group of atoms forms a molecule. A combination of an image and a headline can form a card, which is indeed a molecu****le.
+`Atom + Atom = Molecule`
+
+* Row - Group of molecules forms a row. A couple of card groups arranged in some order can form a row. This can be the highest entity level in our system where multiple rows form a web page.
+`Molecule + Molecule = Row`.
+
+### Prerequisites
+To set up the development environment you need to have `Node >= 14.0.0` and `npm >= 5.6` on your machine.
 
 ### Available Scripts
 
