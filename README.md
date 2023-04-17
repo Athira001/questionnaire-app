@@ -14,9 +14,7 @@ Desktop view
 
 Mobile view
 
-<img width="356" alt="image" src="https://user-images.githubusercontent.com/37729206/232368488-e00f4580-819c-41ff-a57c-9773d13e4e3f.png">
-
-![material-ui](https://user-images.githubusercontent.com/37729206/232368904-74d3468c-54ff-4cd0-bac9-4bce4e20794d.gif)
+<img width="313" alt="image" src="https://user-images.githubusercontent.com/37729206/159499938-f8348f10-2657-4be4-9808-eb84f8bc5325.png">
 
 ### Following Design System
  we use the idea of [Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/) as a part of building a web page.
